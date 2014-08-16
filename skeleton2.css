@@ -1,0 +1,91 @@
+ body{
+  margin: 0;
+  height:790px;
+  overflow:hiden;
+  background-color:black;
+
+ 
+  
+}
+canvas{
+  display: block;
+  overflow:hiden;
+
+}
+#div3 { 
+ position:relative;
+ left:10px;
+bottom:15px;
+ height:20px;
+ width:70px;	
+z-index:100;  
+
+      font-family:Brandish;
+         color: rgba(150,150,150,0.80);
+	  -webkit-transition: color 1.2s;
+	  transition: color 1.2s;
+	  text-shadow: 7px 8px 10px rgba(0,0,0,0.7);
+	  -webkit-text-shadow: 7px 8px 10px rgba(0,0,0,0.7);
+	  line-height: 3px;
+         font-size: 16px;
+         padding-top:10px;
+         margin-bottom:2px;
+}
+
+#div1 { 
+ position:absolute;
+ top:1px;	  
+}
+#div2 { 
+ position:relative;
+ left:1030px;
+ top:230px!important;
+ height:630px;
+ width:250px;	
+z-index:100;  
+}
+a{
+          font-family:Brandish;
+         color: rgba(150,150,150,0.70);
+	  -webkit-transition: color 1.2s;
+	  transition: color 1.2s;
+	  text-shadow: 7px 8px 10px rgba(0,0,0,0.7);
+	  -webkit-text-shadow: 7px 8px 10px rgba(0,0,0,0.7);
+	  line-height: 5px;
+         font-size: 22px;
+}
+a:hover {
+color: rgba(190, 190, 190,0.28);
+font-size:22px;
+/*transition*/
+-webkit-transition:all 800ms  biqubiq;
+transition:all 800ms bicubiq;
+}
+.filter2 {
+   	              
+   	    	           overflow:hiden;
+                          z-index: 101;
+                          left: 0px;
+                          top: 0px;
+                          position: relative;                      
+                          width: 100%;    
+                             }	  
+p{
+          font-family:Brandish;
+         color: rgba(150,150,150,0.70);
+	  -webkit-transition: color 1.2s;
+	  transition: color 1.2s;
+	  text-shadow: 7px 8px 10px rgba(0,0,0,0.7);
+	  -webkit-text-shadow: 7px 8px 10px rgba(0,0,0,0.7);
+	  line-height: 5px;
+         font-size: 16px;
+}
+#div4 { 
+ position:absolute;
+ left:530px!important;
+ bottom:15px;
+ height:330px;
+ width:480px;	
+z-index:100;  
+}
+
